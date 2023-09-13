@@ -1,0 +1,16 @@
+// https://github.com/udemyrailscourse/alpha-blog-11-2017-5.1.4
+to migrate
+-rails generate migration create_articles
+#migration file are created in db folder
+
+write model and schema in migration file.
+and run commmand
+-rails db:migrate 
+# this is add medel schema since last migrate.
+
+to update migration we can roll back -> but it is not preferable .
+-rail db:rollback
+and again run above(7) command
+
+to update we can create new migrate file and then update schema on there file and then again migrate that file.
+
