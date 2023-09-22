@@ -14,3 +14,5 @@ and again run above(7) command
 
 to update we can create new migrate file and then update schema on there file and then again migrate that file.
 
+2. Add model in database and insert record.
+https://www.udemy.com/course/the-complete-ruby-on-rails-developer-course/learn/lecture/3850404#overview
